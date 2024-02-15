@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: crimson;
+  position: absolute;
+  animation: move 3s ease-in-out infinite;
+  /* animation: lucky 3s linear infinite; */
+}
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 60%;
+    rotate: 360deg;
+    background-color: blue;
+  }
+}
+/* @keyframes lucky {
+  0% {
+    position: absolute;
+    left: 400px;
+  }
+  25% {
+    left: 500px;
+  }
+  50% {
+    left: 600px;
+  }
+  100% {
+    left: 800px;
+  }
+} */

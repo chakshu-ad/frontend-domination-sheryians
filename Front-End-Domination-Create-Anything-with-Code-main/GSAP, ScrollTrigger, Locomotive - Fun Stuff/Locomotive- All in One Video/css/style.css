@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.page1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(80, 207, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(114, 217, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2 .image {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.page2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scale: 1.4;
+}
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(80, 182, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: palegoldenrod;
+}
